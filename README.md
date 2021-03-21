@@ -4,7 +4,7 @@
 - Clone this repo to your local machine.
 
 #### Create cluster
-- We'll start off by creating an AWS EMR cluster, just as in the first assignment. Head over to [AWS EMR](https://aws.amazon.com/emr/) and get started.
+- We'll start off by creating an AWS EMR cluster. Head over to [AWS EMR](https://aws.amazon.com/emr/) and get started.
 - Click on Create cluster and configure as per below - 
 
 ![img](http://imgur.com/Ed6DlBS.jpg)
