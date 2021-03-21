@@ -12,8 +12,8 @@ sc = SparkContext(conf = conf)
 print("Launch App..")
 if __name__ == "__main__":
 	print("Initiating main..")
-	
-	inputFile = "s3://csds1129/spark-emr/input.txt"
+	# change the file path to your S3 bucket
+	inputFile = "s3://wordcount-emrcsds/csds-spark-emr/input.txt"
 	print("Counting words in ", inputFile)
 	lines = sc.textFile(inputFile)
 	
