@@ -13,6 +13,7 @@
 
 #### Create private key for ssh access
 - Click on "Learn how to create an EC2 key pair" to create and modify your EC2 key pair.
+- Make sure you limit the access of EC2 key pair to your own account, otherwise you will get error message.
 
 #### Allow inbound SSH traffic on the master node
 - On the left top corner goto Services->EC2
